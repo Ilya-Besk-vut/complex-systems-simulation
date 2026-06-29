@@ -14,16 +14,16 @@ Projekt se zaměřuje na generování síťových struktur a simulaci dynamický
 Všechny algoritmy jsou implementovány v prostředí **MATLAB**.
 
 ### Základní modely a generátory
-* `BA.m` – Generuje bezškálové sítě Barabási–Albert pomocí mechanismu preferenčního připojování[cite: 1].
-* `ER.m` – Generuje náhodné grafy Erdős–Rényi na základě pravděpodobnosti propojení hran[cite: 4].
-* `SmalWorld.m` – Generuje sítě typu „Malý svět“ (Watts–Strogatz) pomocí přepojování hran[cite: 9].
-* `Vaha.m` & `color.m` – Pomocné utility pro dynamické vážení hran a barvení uzlů grafu[cite: 3, 10].
+* `BA.m` – Generuje bezškálové sítě Barabási–Albert pomocí mechanismu preferenčního připojování.
+* `ER.m` – Generuje náhodné grafy Erdős–Rényi na základě pravděpodobnosti propojení hran.
+* `SmalWorld.m` – Generuje sítě typu „Malý svět“ (Watts–Strogatz) pomocí přepojování hran.
+* `Vaha.m` & `color.m` – Pomocné utility pro dynamické vážení hran a barvení uzlů grafu.
 
 ### Hlavní simulační skripty (`src/`)
 * `main_opinions.m` – **Model polarizace názorů**. Simuluje dynamiku názorů ve skupině, demonstruje formování názorových klastrů a výsledný stav zobrazuje pomocí histogramů.
-* `main_kuramoto.m` – **Kuramotův model synchronizace**. Vyhodnocuje a porovnává závislost řádového parametru na síле vazby mezi oscilátory v topologiích ER a BA sítí[cite: 7].
-* `test_BA.m` – Validační skript pro ověření a vykreslení bezškálových vlastností BA algoritmu oproti teoretickému mocninnému rozdělení $k^{-3}$[cite: 2].
-* `main_economy.m` – **Simulace vlastního komplexního socioekonomického systému**. Modeluje interakce mezi městy na základě jejich bohatství, mírumilovnosti, obchodních cest a válečných konfliktů. Cílem tohoto modelu bylo ukázat evoluci na dvouvrstvé síti, nikoliv se pokusit vysvětlit sociálně-ekonomické chování[cite: 5].
+* `main_kuramoto.m` – **Kuramotův model synchronizace**. Vyhodnocuje a porovnává závislost řádového parametru na síле vazby mezi oscilátory v topologiích ER a BA sítí.
+* `test_BA.m` – Validační skript pro ověření a vykreslení bezškálových vlastností BA algoritmu oproti teoretickému mocninnému rozdělení $k^{-3}$.
+* `main_economy.m` – **Simulace vlastního komplexního socioekonomického systému**. Modeluje interakce mezi městy na základě jejich bohatství, mírumilovnosti, obchodních cest a válečných konfliktů. Cílem tohoto modelu bylo ukázat evoluci na dvouvrstvé síti, nikoliv se pokusit vysvětlit sociálně-ekonomické chování.
 
 ---
 
